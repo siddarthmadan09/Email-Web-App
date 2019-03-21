@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import EmailListItem from '../EmailListItem/EmailListItem';
+import { Button } from 'semantic-ui-react';
+
 const emailURL = "https://5c5a21f9af3ff700140de477.mockapi.io/api/email/";
 
 class EmailList extends Component {
@@ -26,7 +28,12 @@ class EmailList extends Component {
   render() {
   
    const EmailListItems = this.state.emailList.map((email) => {
-        return <EmailListItem email= {email} key={email.id} />
+        return (
+          <div>
+        <EmailListItem email= {email} key={email.id} />
+        <Button className="formButton" negative type="submit">DELETE</Button>
+        </div>
+        ) 
     })
 
     return (

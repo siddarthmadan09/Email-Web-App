@@ -38,8 +38,8 @@ class EmailView extends Component {
                   <p>{this.state.email.text}</p>
                 </div>
             </div>
-            <Button className="formButton" positive type="submit">Next</Button>
-            <Button className="formButton" negative type="submit">Prev</Button>
+            <Button className="formButton" positive type="submit">NEXT</Button>
+            <Button className="formButton" negative type="submit">PREV</Button>
           </div>
         )
     }

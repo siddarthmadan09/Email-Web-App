@@ -14,11 +14,11 @@ class EmailCreate extends Component {
                 <Form>
                     <div class="field">
                         <label>To</label>
-                        <input placeholder="First Name"/>
+                        <input placeholder="To"/>
                     </div>
                     <div class="field">
                         <label>Subject</label>
-                        <input placeholder="Last Name"/>
+                        <input placeholder="Enter your subject here"/>
                     </div>
                     <textarea placeholder="type your message here" onChange={this.handleChange} />
                     <Button className="formButton" positive type="submit">Send</Button>
