@@ -5,6 +5,7 @@ import { withRouter } from 'react-router-dom'
 
   handleClick(emailId) {
     let path = `${process.env.PUBLIC_URL}/email/${emailId}`;
+    console.log(path)
     this.props.history.push({
       pathname: path,
       state: { emailId:emailId }

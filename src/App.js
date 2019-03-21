@@ -19,8 +19,8 @@ class App extends Component {
   </nav>
         <NavBar />
          <Switch>
-          <Route exact path="/" render={() => (
-                <Redirect to="/email"/>
+          <Route exact path={`${process.env.PUBLIC_URL}/`} render={() => (
+                <Redirect to={`${process.env.PUBLIC_URL}/email`} />
             )} />
         </Switch> 
     </div>
