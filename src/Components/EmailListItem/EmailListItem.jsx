@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom'
  class EmailListItem extends Component {
 
   handleClick(emailId) {
-    let path = `/email/${emailId}`;
+    let path = `${process.env.PUBLIC_URL}/email/${emailId}`;
     this.props.history.push({
       pathname: path,
       state: { emailId:emailId }
