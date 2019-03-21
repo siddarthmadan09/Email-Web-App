@@ -11,10 +11,10 @@ class EmailMain extends Component {
       return (
         <div>
             <div className="main ui secondary pointing menu">
-                <Link to="/email" className=" waves-effect center active item">
+                <Link to={`${process.env.PUBLIC_URL}/email`} className=" waves-effect center active item">
                         List
                 </Link>
-                <Link to="/email/new" className="center active item">
+                <Link to={`${process.env.PUBLIC_URL}/email/new`} className="center active item">
                       Create
                 </Link>
             </div>
@@ -23,9 +23,9 @@ class EmailMain extends Component {
               render={() => (
                     <div>
                         <Switch>
-                            <Route path="/email/new" component={EmailCreate} />
-                            <Route path="/email/:id" component={EmailView} />
-                            <Route path="/email" component={EmailList} />
+                            <Route path={`${process.env.PUBLIC_URL}/email/new`} component={EmailCreate} />
+                            <Route path={`${process.env.PUBLIC_URL}/email/:id`} component={EmailView} />
+                            <Route path={`${process.env.PUBLIC_URL}/email`} component={EmailList} />
                         </Switch>
                     </div>
               )} />

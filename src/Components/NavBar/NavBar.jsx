@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import EmailMain from '../EmailMain/EmailMain';
-import { Grid, Image } from 'semantic-ui-react'
 class NavBar extends Component {
 
   render() {

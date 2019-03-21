@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter } from 'react-router-dom';
 import 'semantic-ui-css/semantic.min.css'; 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter basename={'/email'}>
         <App />
     </BrowserRouter>
 , document.getElementById('root'));

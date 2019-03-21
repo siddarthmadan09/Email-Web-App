@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import {Form, Segment, Button, Grid, Header } from 'semantic-ui-react';
+import {Form, Segment, Button, Grid } from 'semantic-ui-react';
 class EmailCreate extends Component {
 
     state = {
       emailList : []
     }
-    
+
     render () {
     return (
           <Grid>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import EmailListItem from '../EmailListItem/EmailListItem';
-const emailURL = "http://5c5a21f9af3ff700140de477.mockapi.io/api/email/";
+const emailURL = "https://5c5a21f9af3ff700140de477.mockapi.io/api/email/";
 
 class EmailList extends Component {
 

@@ -1,12 +1,7 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import { Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import NavBar from './Components/NavBar/NavBar'
-import { Header } from "semantic-ui-react";
-import EmailList from './Components/EmailList/EmailList';
-import EmailMain from './Components/EmailMain/EmailMain';
-import EmailView from './Components/EmailView/EmailView';
 
 class App extends Component {
   render() {
