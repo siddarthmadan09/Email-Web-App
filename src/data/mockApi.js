@@ -1,3 +1,5 @@
+// dummy functions
+// used to retrieve data without api
 import sampleData from './sampleData.js';
 
 const delay = (ms) => {

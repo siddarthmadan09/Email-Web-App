@@ -20,13 +20,13 @@ import { withRouter } from 'react-router-dom'
             
               <ul className="item">
                   <li>
-                    <span className="listContent">
+                    <span className="checkboxContent">
                       <input type="checkbox" className="check1" readOnly={false} />
                     </span>
-                      <span className="listContent1">
+                      <span className="fromContent">
                         {this.props.email.from}
                       </span>
-                      <span className="listContent2">{this.props.email.text.substring(0, 70)}...</span>
+                      <span className="textContent">{this.props.email.text.substring(0, 60)}...</span>
                   </li>
               </ul>
             </div>
