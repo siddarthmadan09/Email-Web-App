@@ -1,4 +1,4 @@
-I used React to develop the client UI. Since it was developed using React, it was easy to breakdown the UI into components.
+I used React to develop the client UI. The reason being that the requirements had to do with just creating views, without any additonal logic required for integrating with 3rd party libraries, handling the controller logic and the application state, in which Angular framework would be preferred. React just being a library is more lightweight, the bundled version will take less time to deploy and send across the network. Since it was developed using React, it was easy to breakdown the UI into components.
 
 
 1. EmailMain - Holds the entire email part of the application - Like a Higher order component
